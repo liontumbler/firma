@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma para formularios</title>
+</head>
+<body style="margin: 0;padding: 0;">
+    <div>
+        <!--label for="xxx">campo firma1:</label-->
+        <input type="firma" id="xxx" cuadricula="true" guia="true"  lineaNegraImagen="true" text1="Edwin Velasquez Jimenez" text2="Creador de la libreria">
+    </div>
+
+    <div>
+        <label for="xxx2">campo firma2:</label>
+        <input type="firma" id="xxx2" cuadricula="false" guia="true"  lineaNegraImagen="true" text1="Edwin Velasquez Jimenez" text2="Creador de la libreria">
+    </div>
+
+    <div>
+        <label for="xxx3">campo firma3:</label>
+        <input type="firma" id="xxx3" cuadricula="true" guia="false" lineaNegraImagen="true"  text1="Edwin Velasquez Jimenez" text2="Creador de la libreria" TextMarcaAgua="Marca Registrada">
+    </div>
+
+    <div>
+        <label for="xxx4">campo firma4:</label>
+        <input type="firma" id="xxx4" cuadricula="false" guia="false" lineaNegraImagen="false"  text1="Edwin Velasquez Jimenez" text2="Creador de la libreria" TextMarcaAgua="Edwin Velasquez Jimenez">
+    </div>
+
+    <div>
+        <label for="xxx5">campo firma5:</label>
+        <input type="firma" id="xxx5" cuadricula="false" guia="false" lineaNegraImagen="false">
+    </div>
+
+    <div>
+        <label for="xxx6">campo firma6:</label>
+        <input type="firma" id="xxx6" gruesoLinea="6" TextMarcaAgua="Marca">
+    </div>
+    
+    <script src="firma.js"></script>
+    <script>
+        document.getElementById('xxx').agregarTextos(null, null)
+    </script>
+</body>
+</html>
