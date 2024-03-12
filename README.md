@@ -4,6 +4,11 @@ Para poder implementarlo se necesita del archivo firma.js, para importarlo a tu 
 -     <script src="firma.js"></script>
 ó
 -     <script src="https://liontumbler.github.io/firma/firma.js"></script>
+ó
+-     import 'https://liontumbler.github.io/firma/firma.js';
+-     import 'firma.js';
+### Nota:
+Recuerda siempre hacer esta importación después del llamado de todas las librerías que necesites, ya que si la pones de primeras se ejecutaría de primeras y no alcanzaría a ver los cambios que causen tus archivos js, en caso de que necesites que se ejecuten antes de hacer la creación de la firma, de todas maneras prueba y mira donde te puede quedar mejor.
 
 Ya para poder implementarlo crea en tu HTML crea una etiqueta de tipo input con el type firma y obviamente su id para capturar su valor o estado:
 
