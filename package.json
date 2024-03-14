@@ -1,0 +1,26 @@
+{
+  "name": "firma-input",
+  "version": "1.0.1",
+  "description": "Captura de la firma a mano alzada con un input de type firma",
+  "main": "firma.js",
+  "browser": "firma.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liontumbler/firma.git"
+  },
+  "keywords": [
+    "signature",
+    "signature-pad",
+    "html-javascript",
+    "firma",
+    "input-signature",
+    "input-firma"
+  ],
+  "author": "Edwin Velasquez Jimenez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/liontumbler/firma/issues"
+  },
+  "homepage": "https://liontumbler.github.io/firma/"
+}

@@ -1,3 +1,19 @@
+## npm Install:
+-     npm install firma-input
+o 
+-     npm i firma-input
+
+## importacion
+// Using Node.js `require()`
+-     require('./node_modules/firma-input/firma.js');
+
+// Using ES6 imports
+-     import './node_modules/firma-input/firma.js';
+
+#### Nota 
+Para el caso de NPM por el momento se llama de esta forma, ya que no encontré como hacer
+llamadas de archivos que se autoejecutan, ya que este es un archivo autoejecutable
+
 # [DEMO](https://liontumbler.github.io/firma/)
 ## Descripción técnicas:
 Para poder implementarlo se necesita del archivo firma.js, para importarlo a tu página:
